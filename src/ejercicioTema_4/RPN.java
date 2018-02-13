@@ -28,7 +28,7 @@ public class RPN {
 
 		}
 
-		public double resultado( ) {
+		public double numerosOperacion( ) {
 
 			double a, b;
 
