@@ -51,7 +51,7 @@ public class RPN {
 			
 			}	
 
-		public double numerosOperacion( ) {
+		private void numerosOperacion( ) {
 
 			double a, b;
 
