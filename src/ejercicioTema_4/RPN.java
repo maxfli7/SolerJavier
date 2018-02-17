@@ -27,6 +27,29 @@ public class RPN {
 			this.commando = commando;
 
 		}
+		
+		public double resultado() {
+			
+			
+			if(arriba != null) {
+					
+				throw new IllegalArgumentException("error");
+				
+				
+			
+			}else {
+				
+				numerosOperacion();
+				
+				double val = popPila();
+				
+				return val;
+				
+			}
+
+			
+			
+			}	
 
 		public double numerosOperacion( ) {
 
@@ -65,16 +88,6 @@ public class RPN {
 				}
 
 			}
-
-			double val = popPila( );
-
-			if(arriba != null) {
-
-				throw new IllegalArgumentException( );
-
-			}
-
-			return val;
 
 		}
 		
